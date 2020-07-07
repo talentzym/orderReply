@@ -11,7 +11,6 @@ module.exports = {
     assetsSubDirectory: 'static',
     assetsPublicPath: '/',
     proxyTable: {'/apis':{
-        // target: 'http://39.106.131.83:801', /* 测试地址 */
         // target: 'http://94.191.85.100:801', /* 测试地址 */
         target: 'http://192.168.1.106:801', /* 测试地址 */
         changeOrigin: true,
